@@ -1,0 +1,28 @@
+{
+  "name": "cruzcivieta/parts-list",
+  "description": "Kata in codewars",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Cruz",
+      "email": "daniel.cruz.civieta@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CruzCivieta\\": "src/CruzCivieta/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CruzCivieta\\": "tests/CruzCivieta/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
