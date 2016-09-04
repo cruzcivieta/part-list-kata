@@ -45,6 +45,7 @@ class PartListTest extends \PHPUnit_Framework_TestCase
         return [
             [['prueba', 'valida', 'elements'], [['prueba', 'valida elements'], ['prueba valida', 'elements']]],
             [['prueba', 'valida', 'elements', 'foo'], [['prueba', 'valida elements foo'], ['prueba valida', 'elements foo'], ['prueba valida elements', 'foo']]],
+            [['az', 'toto', 'picaro', 'zone', 'kiwi'], [['az', 'toto picaro zone kiwi'], ['az toto', 'picaro zone kiwi'], ['az toto picaro', 'zone kiwi'], ['az toto picaro zone', 'kiwi']]],
         ];
     }
 
